@@ -71,7 +71,7 @@ async function main() {
   if (!args.path) throw 'Missing --path <path to project root>'
   const noDependencies = !!args.noDependencies || !!args.d
   const noDuplicates = !!args.noDuplicates || !!args.u
-  const exclude = args.exclude
+  const exclude = args.exclude?.split(';')
 
   exporter = require(`./exporter/${args.exporter || 'markdown'}`)
 
