@@ -1,0 +1,14 @@
+{
+  "name": "nmle",
+  "version": "1.0.0",
+  "description": "Node Modules License Exporter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andreas May (maanex.me)",
+  "license": "ISC",
+  "dependencies": {
+    "@maanex/parse-args": "^1.0.0"
+  }
+}
