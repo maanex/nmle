@@ -1,4 +1,4 @@
-module.exports = (packagejson, license) => {
+exports.module = (packagejson, license) => {
   return [
     '---',
     '',
